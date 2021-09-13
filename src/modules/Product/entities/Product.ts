@@ -17,7 +17,7 @@ class Product {
   @Column('decimal')
   price: number;
 
-  @Column('iont')
+  @Column('int')
   quantity: number;
 
   @CreateDateColumn()
